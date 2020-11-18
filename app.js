@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+app.engine('html', require('ejs').renderFile);
 
 // routes
 app.get('/', (req, res) => {
