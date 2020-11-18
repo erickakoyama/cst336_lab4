@@ -4,11 +4,11 @@ app.engine('html', require('ejs').renderFile);
 
 // routes
 app.get('/', (req, res) => {
-  res.send('it works!');
+  res.render('index.html');
 });
 
 app.get('/mercury', (req, res) => {
-  res.send('This will be Mercury web page!');
+  res.render('mercury.html');
 });
 
 app.get('/venus', (req, res) => {
