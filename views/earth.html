@@ -1,11 +1,17 @@
 <%- include('partials/header.ejs') %>
-  <h1>Welcome to Earth!</h1>
+  <h1 class="text-center">Welcome to Earth!</h1>
 
-  <img alt="The Solar System" src="img/earth.jpg" />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid" alt="The Solar System" src="img/earth.jpg" />
+      </div>
 
-  <div>
-    Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things. While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the
-    surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.
+      <div class="col-md-6">
+        Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things. While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the
+        surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.
+      </div>
+    </div>
   </div>
 
   <%- include('partials/footer.ejs') %>

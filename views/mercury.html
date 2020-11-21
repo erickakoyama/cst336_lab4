@@ -1,11 +1,17 @@
 <%- include('partials/header.ejs') %>
-  <h1>Welcome to Mercury!</h1>
+  <h1 class="text-center">Welcome to Mercury!</h1>
 
-  <img alt="The Solar System" src="img/mercury-surface.png" />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid" alt="The Solar System" src="img/mercury-surface.png" />
+      </div>
 
-  <div>
-    The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would
-    be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere.
+      <div class="col-md-6">
+        The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would
+        be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere.
+      </div>
+    </div>
   </div>
 
   <%- include('partials/footer.ejs') %>

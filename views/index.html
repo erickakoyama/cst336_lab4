@@ -1,8 +1,36 @@
 <%- include('partials/header.ejs') %>
 
-  <h1>Welcome to the Solar System Site!</h1>
-  <p>Click on a planet to learn more about it:</p>
+  <h1 class="text-center">Welcome to the Solar System Site!</h1>
 
-  <img alt="The Solar System" src="img/solar-system.jpg" />
+  <div class="text-center">
+    <p>Click on a planet to learn more about it:</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-fluid" alt="The Solar System" src="img/solar-system.jpg" />
+        </div>
+
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a href="/mercury">Mercury</a>
+            </li>
+            <li class="list-group-item">
+              <a href="/venus">Venus</a>
+            </li>
+            <li class="list-group-item">
+              <a href="/earth">Earth</a>
+            </li>
+            <li class="list-group-item">
+              <a href="/mars">Mars</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <%- include('partials/footer.ejs') %>
