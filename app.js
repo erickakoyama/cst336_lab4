@@ -13,7 +13,15 @@ app.get('/mercury', (req, res) => {
 });
 
 app.get('/venus', (req, res) => {
-  res.send('This will be Venus web page!');
+  res.render('venus.html');
+});
+
+app.get('/earth', (req, res) => {
+  res.render('earth.html');
+});
+
+app.get('/mars', (req, res) => {
+  res.render('mars.html');
 });
 
 // starting server
